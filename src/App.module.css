@@ -1,6 +1,12 @@
 .flexContainer {
-  display: flex;
+  /* display: flex; */
   background-color: #f4f4f4;
+}
+
+.flexContainer::after {
+  content: '';
+  clear: both;
+  display: block;
 }
 
 .item {
@@ -9,4 +15,5 @@
   background: #254de4;
   color: #fff;
   margin: 10px;
+  float: left;
 }
