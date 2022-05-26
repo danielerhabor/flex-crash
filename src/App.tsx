@@ -1,15 +1,13 @@
+import Navbar from './Navbar';
+import Header from './Header';
+
 import styles from './App.module.css';
 
 const App = () => {
   return (
     <>
-      <div className={styles.flexContainer}>
-        <div className={styles.item}>Item 1</div>
-        <div className={styles.item}>Item 2</div>
-        <div className={styles.item}>Item 3</div>
-        <div className={styles.item}>Item 4</div>
-        <div className={styles.item}>Item 5</div>
-      </div>
+      <Navbar />
+      <Header />
     </>
   );
 };
