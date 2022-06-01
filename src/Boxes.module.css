@@ -1,2 +1,14 @@
-.boxes {
+@value globalContainer from "Container.css";
+
+.container {
+  composes: globalContainer;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
 }

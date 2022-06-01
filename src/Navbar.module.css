@@ -1,5 +1,43 @@
+@value globalContainer from "Container.css";
+
 .navbar {
+  background: #3474e6;
+  color: #fff;
+  height: 60px;
 }
 
 .nav {
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+.container {
+  composes: globalContainer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.logo {
+  font-size: x-large;
+  font-weight: bold;
 }

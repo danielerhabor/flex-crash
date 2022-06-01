@@ -12,9 +12,7 @@ const Header = () => {
             {' '}
             This crash course was created by Brad Traversy to help you learn the
             basics of flexbox. Flexbox is a very important and useful tool in
-            CSS. This crash course was created by Brad Traversy to help you
-            learn the basics of flexbox. Flexbox is a very important and useful
-            tool in CSS.
+            CSS.
           </p>
         </div>
         <img src={gridImage} alt="" />
